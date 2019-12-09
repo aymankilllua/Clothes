@@ -1,0 +1,1101 @@
+body{
+    box-sizing: border-box;
+}
+.naving{
+    position: relative;
+    width:100%;
+}
+.collapse2{
+    position: absolute;
+    margin-top: 50px;
+    width:200px;
+    height:0;
+    left:80%;
+}
+.collapse2 .form-group {
+    position: relative;
+    width:300px;
+    overflow: hidden;
+
+}
+.collapse2 .form-group  .form-control {
+    position: relative;
+    width:300px;
+     opacity: 1;
+}
+.home1{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    background: #EBE7E7;
+}
+.home1 .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 600px;
+    overflow: hidden;
+}
+.home1 .img img{
+    position: absolute;
+    top:10%;
+    left:30%;
+    width:300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.home1 .img svg{
+    position: relative;
+    top:0;
+    left:10%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.home1 .img svg circle{
+    fill: #B08F81;
+    box-shadow: 15px 11px 45px px #B08F81;
+}
+.home1 .img svg .cir{
+    position: relative;
+    top:0;
+    left:10%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    background: red;
+}
+.home1 .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    padding-top: 120px;
+}
+.home1 .text h1{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 90px;
+}
+.home1 .text p{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 30px;
+    width:60%;
+    font-weight: lighter;
+    text-align: right;
+    color:#FFD600;
+}
+.section1 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:477px;
+    background: #16131A;
+}
+.section1 .text{
+    position: relative;
+    top:180px;
+    left:5px;
+    width:100%;
+    overflow: hidden;
+
+}
+.section1 .text h2{
+    font-size: 50px;
+    color:rgb(250, 250, 250)
+}
+.section1 .text p{
+    position: relative;
+    left:5px;
+    color:#9E6455
+}
+.section1 .img{
+    position: absolute;
+    top:-120px;
+    right:0px;
+    left:50px;
+    width:100%;
+    height:100%;
+}
+.section1 .img img{
+    position: absolute;
+    top:0;
+    right:0;
+    width:321px;
+    height:559px;
+    object-fit: cover;
+}
+.img img{
+    object-fit: cover;
+}
+.section1 .img1{
+    position: absolute;
+    top:-120px;
+    right:0px;
+    left:50px;
+    width:100%;
+    height:100%;
+}
+.section1 .img1 img{
+    position: absolute;
+    top:0;
+    right:0;
+    width:321px;
+    height:559px;
+    object-fit: cover;
+
+}
+.sectionacss{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    background: #F3F3F3;
+    overflow: hidden;
+}
+.sectionacss .text{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+}
+.sectionacss .text h2{
+    font-size: 80px;
+}
+.sectionacss .text h5{
+    font-size: 30px;
+}
+.sectionacss .text p{
+    font-size: 20px;
+    position: relative;
+    left:20px;
+    font-weight: lighter;
+    color:#FFD600;
+}
+.sectionacss .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:300px;
+    overflow: hidden;
+}
+.sectionacss .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:477px;
+    overflow: hidden;
+}
+
+.section .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+.section .img img{
+    position: relative;
+    top:10px;
+    left:10px;
+    width:100%;
+    object-fit: cover;
+}
+.section .text{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background: #FCFCFC;
+    transform: translateY(100%);
+    transition: .5s ease-in-out;
+}
+.section .text h4{
+    position: relative;
+    font-size: 20px;
+    padding:10px ;
+}
+.section .text h5{
+    position: relative;
+    font-size: 19px;
+    padding-left:10px ;
+    font-weight: lighter;
+}
+.section .text p{
+    position: relative;
+    font-size: 15px;
+    padding:10px ;
+    color:#FFD600
+}
+.section .text .Buy{
+    font-size: 30px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.section .text .Buy:hover a{
+    text-decoration: none;
+}
+.section:hover .text{
+    transform: translateY(55%);
+    transition: .5s ease-in-out;
+}
+.section4{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+
+.section4 .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.section4 .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    object-fit: cover;
+}
+.section4 .text{
+    position: relative;
+    top:10%;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    border: 2px solid #000 ;
+    border-left:none;
+    padding: 20px;
+}
+.section4 .text h3{
+    font-size: 25px;
+}
+.section4 .text .blog p{
+    font-size: 17px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.section4 .text p{
+    font-size: 17px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.footer{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.footer .form-group{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.footer .form-group input {
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+
+}
+.footer .form-group .fa-envelope{
+    position: absolute;
+    top:10px;
+    right:5px;
+}
+.About1{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.About1 .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.About1 .text h1{
+    font-size:100px ;
+}
+.About2 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.About3{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.About3 .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 350px;
+    overflow: hidden;
+    z-index: 1;
+}
+.About3 .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 350px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+.About3 .text {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 5;
+}
+.About3 .text h1{
+    position: relative;
+    top:50%;
+    left:0;
+    width:100%;
+    color:#FFD600
+}
+.About3 .text h2{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;   
+}
+.About3 .text p{
+    position: relative;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+
+.blog{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.blog .bigsection{
+    cursor: pointer;
+}
+.blog .bigsection .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:800px;
+    overflow: hidden;
+}
+.blog .bigsection .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transform: scale(1.5);
+    transition: 3s ease-in-out;
+}
+.blog .bigsection:hover .img img{
+    transform: scale(1.3);
+    transition: 3s ease-in-out;
+}
+
+.blog .bigsection .text{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.733);
+    padding-top: 50%;
+    color:#fff
+}
+.blog .bigsection .text h5{
+    font-weight: lighter;
+}
+
+
+
+
+
+
+.blog .smallsection .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    overflow: hidden;
+}
+.blog .smallsection .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transform: scale(1);
+    transition: 3s ease-in-out;
+    object-fit: cover;
+}
+
+
+.blog .smallsection .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    padding: 25% 5px 0px 15px;
+    color:#fff
+}
+
+.blog .smallsection .text p{
+    margin:5% ;
+    font-style: italic;
+}
+
+
+
+
+.Men1{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    background: #EBE7E7;
+}
+.Men1 .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 600px;
+}
+.Men1 .img img{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.Men1 .img svg{
+    position: relative;
+    top:0;
+    left:30%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.Men1 .img svg circle{
+    fill: #FFF;
+    box-shadow: 15px 11px 45px px #B08F81;
+}
+.Men1 .img svg .cir{
+    position: relative;
+    top:0;
+    left:10%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    background: red;
+}
+.Men1 .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    padding-top: 120px;
+}
+.Men1 .text h1{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 90px;
+}
+.Men1 .text p{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 30px;
+    width:60%;
+    font-weight: lighter;
+    text-align: right;
+    color:#FFD600;
+}
+.men2 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.men2 .bigsection .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+}
+.men2 .bigsection .img  img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    object-fit: cover;
+}
+.men2 .bigsection .img .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:500px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 20px;
+    color:#fff
+}
+.men2 .bigsection .img .text h1{
+    position: absolute;
+    bottom: 100px;
+}
+.men2 .bigsection .img .text p{
+    position: absolute;
+    bottom: 60px;
+    font-weight: lighter;
+    color:#FFD600
+}
+.men2 .bigsection .img .text button{
+    position: absolute;
+    bottom: 20px;
+    border-radius: 2px;
+}
+.men2 .smallsection  {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    overflow: hidden;
+    background:#000 ;
+}
+.men2 .smallsection .img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    opacity: .6;
+}
+.men2 .smallsection .text {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    color:#fff
+}
+.men2 .smallsection .text p {
+    color: #FFD600;
+}
+.men2 .smallsection .text button{
+    border-radius: 2px;
+}
+.men2 .smallsection .controllimg .img{
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  opacity: 1;
+  overflow: hidden;
+}
+.men2 .smallsection .controllimg .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+
+
+.men3 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.men3 .bigsection .img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:0;
+    left:0;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+    background: #F8F8F8;
+
+}
+.men3 .bigsection .img  img{
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    height:60%;
+    object-fit: cover;
+
+}
+.men3 .bigsection .img .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:500px;
+    padding: 20px;
+    color:#fff
+}
+.men3 .bigsection .img .text h1{
+    position: absolute;
+    top: 10px;
+    color:#000
+}
+.men3 .bigsection .img .text p{
+    position: absolute;
+    bottom: 60px;
+    font-weight: bold;
+    color:#FFD600
+}
+.men3 .bigsection .img .text button{
+    position: absolute;
+    bottom: 20px;
+    border-radius: 2px;
+    border:2px solid ;
+}
+.men3 .smallsection  {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    overflow: hidden;
+}
+.men3 .smallsection .img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    opacity: .6;
+}
+.men3 .smallsection .text {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    color:#fff
+}
+.men3 .smallsection .text p {
+    color: #FFD600;
+}
+.men3 .smallsection .text button{
+    border-radius: 2px;
+}
+.men3 .smallsection .controllimg .img{
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  opacity: 1;
+  overflow: hidden;
+}
+.men3 .smallsection .controllimg .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.men3 .smallsection1 .controllimg {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    overflow: hidden;
+}
+.men3 .smallsection1 .controllimg img{
+    position: relative;
+    top:15%;
+    left:15%;
+    width:70%;
+    object-fit: cover;
+}
+.men3 .smallsection1 .text{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    overflow: hidden;
+}
+.men3 .smallsection1 .text h1{
+    position: absolute;
+    top:0;
+    left:20px;
+    font-size:20px ;
+}
+.men3 .smallsection1 .text button{
+    position: absolute;
+    bottom:10px;
+    left:30px;
+    border-radius: 2px;
+}
+.men3 .smallsection1 .text p{
+    position: absolute;
+    bottom:40px;
+    left:30px;
+    color:#FFD600;
+}
+
+.women{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.women .img {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+}
+.women .img svg {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.women .img img{
+    position: relative;
+    top:0;
+    left:20%;
+    width:300px;
+    z-index: 2;
+    overflow: hidden;
+    object-fit: cover;
+}
+.women .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    padding-top: 120px;
+}
+.women .text h1{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 90px;
+}
+.women .text p{
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 30px;
+    width:60%;
+    font-weight: lighter;
+    text-align: right;
+    color:#FFD600;
+}
+.women1 {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.women1 .bigsection {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.women1 .bigsection .img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.women1 .bigsection .img svg{
+ position: absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+}
+.women1 .bigsection .img img{
+    position: relative;
+    top:0;
+    left:20%;
+    width:300px;
+    z-index: 2;
+    overflow: hidden;
+    object-fit: cover;
+}
+.women1 .bigsection .text{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.women1 .bigsection .text h1{
+    font-size: 80px;
+}
+.women1 .bigsection .text p {
+    color:#D68058;
+    font-weight: lighter;
+}
+.women1 .bigsection .text button{
+    border-radius: 2px;
+}
+
+
+.women1 .smallsection  {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+    border:5px solid #fff;
+}
+.women1 .smallsection .img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    opacity: .6;
+}
+.women1 .smallsection .text {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    color:#fff
+}
+.women1 .smallsection .text p {
+    color: #FFD600;
+}
+.women1 .smallsection .text button{
+    border-radius: 2px;
+}
+.women1 .smallsection  .img{
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  opacity: 1;
+  overflow: hidden;
+}
+.women1 .smallsection  .img .img1{
+    position: absolute;
+    top:0;
+    right:0;
+    width:150px;
+    opacity: 1;
+    object-fit: cover;
+}
+.women1 .smallsection  .img .img2{
+    position: absolute;
+    top:0;
+    left:0;
+    width:150px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+.women1 .smallsection1 .text{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    overflow: hidden;
+}
+.women1 .smallsection1 .text h1{
+    position: absolute;
+    top:0;
+    left:20px;
+    font-size:20px ;
+}
+.women1 .smallsection1 .text button{
+    position: absolute;
+    bottom:10px;
+    left:30px;
+    border-radius: 2px;
+}
+.women1 .smallsection1 .text p{
+    position: absolute;
+    bottom:40px;
+    left:30px;
+    color:#FFD600;
+}
+.itemsW button{
+    text-decoration: none;
+    color:#000000
+}
+.itemsW button:hover{
+    text-decoration: none;
+    color:#FFD000
+}
+.itemsW  .action{
+    text-decoration: none;
+    color:#FFD000
+}
+.itemsW .items .item{
+}
+.itemsW .items  .active {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    max-height:100%;
+
+}
+
+.items{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+.items .img{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 100px;
+    max-height: 400px;
+    overflow: hidden;
+    background: #F8F8F8;
+    padding: 20px;
+}
+.items .img button{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 5;
+    background: #FCFCFC;
+    font-size: 20px;
+    transition: .5s;
+    transform: translateY(100%);
+}
+.items .img:hover button{
+    transition: .5s;
+    transform: translateY(0%);
+}
+.items .img img{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.itemsm button{
+    text-decoration: none;
+    color:#000000
+}
+.itemsm button:hover{
+    text-decoration: none;
+    color:#FFD000
+}
+.itemsm  .action{
+    text-decoration: none;
+    color:#FFD000
+}
+.itemsm .items .item{
+}
+.itemsm .items  .active {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    max-height:100%;
+
+}
+
